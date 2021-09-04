@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.epizy.anigennetwork.mangagenerator">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Action" />
+        <activity android:name=".Yaoi" />
+        <activity android:name=".Yuri" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Shounen" />
+        <activity android:name=".Shoujo" />
+        <activity android:name=".Seinen" />
+        <activity android:name=".School" />
+        <activity android:name=".Mecha" />
+        <activity android:name=".Historical" />
+        <activity android:name=".MartialArts" />
+        <activity android:name=".Josei" />
+        <activity android:name=".Harem" />
+        <activity android:name=".Ecchi" />
+        <activity android:name=".SciFi" />
+        <activity android:name=".Romance" />
+        <activity android:name=".Psychological" />
+        <activity android:name=".Mystery" />
+        <activity android:name=".Horror" />
+        <activity android:name=".Supernatural" />
+        <activity android:name=".Fantasy" />
+        <activity android:name=".SliceOfLife" />
+        <activity android:name=".Drama" />
+        <activity android:name=".Comedy" />
+        <activity android:name=".Adventure" />
+        <activity android:name=".Manhua" />
+        <activity android:name=".Manhwa" />
+        <activity android:name=".Webtoons" />
+        <activity android:name=".Tragedy" />
+        <activity android:name=".OneShot" />
+        <activity android:name=".Isekai" />
+        <activity android:name=".Doujinshi" />
+        <activity android:name=".Cooking" />
+        <activity android:name=".GenderBender"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Genres"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+    </application>
+
+
+
+</manifest>
